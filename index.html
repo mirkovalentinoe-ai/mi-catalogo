@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Gastronómico del Perú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 { margin: 0; }
+        section { padding: 30px; }
+        h2 {
+            color: #b71c1c;
+            border-bottom: 2px solid #b71c1c;
+            padding-bottom: 5px;
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .plato {
+            width: 30%;
+            background-color: #fff;
+            margin: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .plato img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .plato h3 {
+            text-align: center;
+            color: #333;
+            margin: 10px 0;
+        }
+        .plato p {
+            padding: 0 15px 15px 15px;
+            text-align: justify;
+            color: #555;
+        }
+        footer {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        @media (max-width: 768px) {
+            .plato { width: 90%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo Gastronómico del Perú</h1>
+        <p>Sabores de la Costa, Sierra y Selva</p>
+        <p><strong>Dirección del restaurante:</strong> Av. Los Sabores 452, Lima - Perú</p>
+    </header>
+
+    <section>
+        <h2>Costa</h2>
+        <div class="catalogo">
+            <div class="plato">
+                <img src="images.jpg" alt="Ceviche">
+                <h3>Ceviche</h3>
+                <p>El plato más representativo del Perú. Preparado con pescado fresco, limón, cebolla, ají y culantro.<br>
+                <strong>Precio: S/ 28.00</strong><br>
+                <strong>Sede: Lima - Miraflores</strong></p>
+            </div>
+
+            <div class="plato">
+                <img src="24241.jpg" alt="Arroz con mariscos">
+                <h3>Arroz con Mariscos</h3>
+                <p>Delicioso arroz peruano con una mezcla de mariscos.<br>
+                <strong>Precio: S/ 32.00</strong><br>
+                <strong>Sede: Callao</strong></p>
+            </div>
+
+            <div class="plato">
+                <img src="maxresdefault (1).jpg" alt="Sudado de pescado">
+                <h3>Sudado de Pescado</h3>
+                <p>Pescado cocido al vapor con tomate, cebolla y ají.<br>
+                <strong>Precio: S/ 25.00</strong><br>
+                <strong>Sede: Chimbote</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sierra</h2>
+        <div class="catalogo">
+            <div class="plato">
+                <img src="pachamanca.jpg" alt="Pachamanca">
+                <h3>Pachamanca</h3>
+                <p>Plato ancestral preparado bajo tierra con piedras calientes.<br>
+                <strong>Precio: S/ 45.00</strong><br>
+                <strong>Sede: Huancayo</strong></p>
+            </div>
+
+            <div class="plato">
+                <img src="images (1).jpg" alt="Humita">
+                <h3>Humita</h3>
+                <p>Maíz molido envuelto en hojas de choclo.<br>
+                <strong>Precio: S/ 8.00</strong><br>
+                <strong>Sede: Cusco</strong></p>
+            </div>
+
+            <div class="plato">
+                <img src="Aji_de_gallina_comidas_peruanas.jpg" alt="Ají de Gallina">
+                <h3>Ají de Gallina</h3>
+                <p>Pollo desmenuzado en salsa cremosa de ají amarillo.<br>
+                <strong>Precio: S/ 22.00</strong><br>
+                <strong>Sede: Ayacucho</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Selva</h2>
+        <div class="catalogo">
+            <div class="plato">
+                <img src="juane.jpg" alt="Juane">
+                <h3>Juane</h3>
+                <p>Arroz con gallina envuelto en hojas de bijao.<br>
+                <strong>Precio: S/ 18.00</strong><br>
+                <strong>Sede: Tarapoto</strong></p>
+            </div>
+
+            <div class="plato">
+                <img src="5ba1edce0ad19b39b3059df080cc0cdb.jpg" alt="Tacacho con Cecina">
+                <h3>Tacacho con Cecina</h3>
+                <p>Plátano asado con cecina y chorizo amazónico.<br>
+                <strong>Precio: S/ 20.00</strong><br>
+                <strong>Sede: Iquitos</strong></p>
+            </div>
+
+            <div class="plato">
+                <img src="inchichuchu.jpg" alt="Inchicapi">
+                <h3>Inchicapi</h3>
+                <p>Sopa espesa de gallina con maní y yuca.<br>
+                <strong>Precio: S/ 16.00</strong><br>
+                <strong>Sede: Pucallpa</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Sabores del Perú | Catálogo Gastronómico</p>
+    </footer>
+</body>
+</html>
